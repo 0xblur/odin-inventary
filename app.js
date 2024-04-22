@@ -21,6 +21,7 @@ const limiter = RateLimit({
 	max: 20,
 });
 
+const __dirname = "/home/hadezb/learning/web-development/node/odin-inventary/";
 const viewsDir = path.join(__dirname, "views");
 const hbsHelpers = createHbsHelpers(["comparison", "string"]);
 
