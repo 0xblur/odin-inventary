@@ -63,7 +63,7 @@ app.use((err, req, res, next) => {
 
 	// render the error page
 	res.status(err.status || 500);
-	res.render("error", { error: err.message });
+	res.render("error", { error: err });
 });
 
 export default app;
